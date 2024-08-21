@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Estilo geral */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(220, 194, 255);
+    }
+    /* Cabeçalho */
+    header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    header h1 {
+    font-size: 3.0em;
+    color: hsl(290, 100%, 24%);
+    }
+    header p {
+    font-size: 1.2em;
+    color: hsl(273, 13%, 31%);
+    }
+    /* Seções */
+    section {
+    margin-bottom: 20px;
+    }
+    h2 {
+    font-size: 1.8em;
+    color: hwb(274 9% 75%);
+    margin-bottom: 10px;
+    }
+    ul {
+    list-style-type: none;
+    }
+    li {
+    margin-bottom: 10px;
+    }
+    strong {
+    color: rgb(18, 0, 35);
+    }
+    em {
+    color: rgb(99, 48, 118);
+    }
+    /* Rodapé */
+    footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: hwb(276 41% 33%);
+    }
+    /* Responsividade */
+    @media (max-width: 768px) {
+    body {
+    padding: 10px;
+    
+    }
+    header h1 {
+    font-size: 2em;
+    }
+    h2 {
+    font-size: 1.5em;
+    }
+    }
